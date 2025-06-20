@@ -29,3 +29,16 @@ PS C:\PythonTR>
 PS C:\PythonTR> git branch -M main
 PS C:\PythonTR> git remote add origin https://github.com/UpulnPerera/PyPrg.git
 PS C:\PythonTR> git push -u origin main
+
+PS C:\PythonTR> git checkout Test2
+error: pathspec 'Test2' did not match any file(s) known to git
+PS C:\PythonTR> git branch Test2  
+PS C:\PythonTR> git branch        
+  Test2
+* main
+PS C:\PythonTR> git checkout Test2
+Switched to branch 'Test2'
+PS C:\PythonTR> git branch        
+* Test2
+  main
+PS C:\PythonTR> 
